@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('http://localhost:9999/PRJ301_ASM/img/background1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-title {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.body-content img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.body-content form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.body-content form button {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.body-content form button:hover {
+    background-color: #0056b3;
+}
+
+.body-content form div {
+    margin: 10px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-content .remember-account {
+    display: flex;
+    align-items: center;
+}
+
+.body-content .remember-account input {
+    margin-right: 5px;
+}
+
+.body-content form a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.body-content form a:hover {
+    color: #0056b3;
+}
+
+.body-content form select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
